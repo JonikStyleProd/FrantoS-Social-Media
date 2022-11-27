@@ -188,7 +188,7 @@ Bg1.addEventListener('click', () => {
     Bg1.classList.add('active');
     Bg2.classList.remove('active');
     Bg3.classList.remove('active');
-    document.body.style.backgroundColor = 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)';
+    document.body.style.backgroundColor = 'var(--color-BG)';
 })
 
 
